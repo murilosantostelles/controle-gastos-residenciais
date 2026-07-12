@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ControleGastos.Domain\ControleGastos.Domain.csproj" />
+    <ProjectReference Include="..\ControleGastos.Application\ControleGastos.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

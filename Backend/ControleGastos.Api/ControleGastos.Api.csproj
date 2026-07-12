@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ControleGastos.Infrastructure\ControleGastos.Infrastructure.csproj" />
+    <ProjectReference Include="..\ControleGastos.Application\ControleGastos.Application.csproj" />
   </ItemGroup>
 
 </Project>
