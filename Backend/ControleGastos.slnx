@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="ControleGastos.Domain/ControleGastos.Domain.csproj" />
+  <Project Path="ControleGastos.Infrastructure/ControleGastos.Infrastructure.csproj" />
 </Solution>
