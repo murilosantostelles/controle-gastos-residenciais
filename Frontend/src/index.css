@@ -1,0 +1,24 @@
+:root {
+  --azul-marinho: #0a1f44;
+  --azul-marinho-claro: #1e3a6e;
+  --branco: #ffffff;
+  --cinza-claro: #f2f2f7;
+  --cinza-texto: #6e6e73;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--cinza-claro);
+  color: var(--azul-marinho);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
