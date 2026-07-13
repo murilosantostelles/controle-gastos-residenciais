@@ -42,14 +42,7 @@ public class PessoaController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<IActionResult> Remover(int id)
     {
-        try
-        {
-            await _pessoaService.RemoverAsync(id);
-            return NoContent();
-        }
-        catch (KeyNotFoundException ex)
-        {
-            return NotFound(new { mensagem = ex.Message });
-        }
+        await _pessoaService.RemoverAsync(id);
+        return NoContent();
     }
 }

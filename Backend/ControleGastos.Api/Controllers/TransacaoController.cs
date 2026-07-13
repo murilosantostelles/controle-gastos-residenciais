@@ -21,23 +21,12 @@ public class TransacaoController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<TransacaoResponseDto>> Criar(CriarTransacaoRequestDto request)
     {
-        try
-        {
-            var transacao = await _transacaoService.CriarAsync(
-                request.Descricao, request.Valor, request.Tipo, request.PessoaId);
+        var transacao = await _transacaoService.CriarAsync(
+            request.Descricao, request.Valor, request.Tipo, request.PessoaId);
 
-            var response = TransacaoResponseDto.FromEntity(transacao);
+        var response = TransacaoResponseDto.FromEntity(transacao);
 
-            return CreatedAtAction(nameof(Criar), new { id = transacao.Id }, response);
-        }
-        catch (KeyNotFoundException ex)
-        {
-            return NotFound(new { mensagem = ex.Message });
-        }
-        catch (InvalidOperationException ex)
-        {
-            return BadRequest(new { mensagem = ex.Message });
-        }
+        return CreatedAtAction(nameof(Criar), new { id = transacao.Id }, response);
     }
 
     /// <summary>
