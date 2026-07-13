@@ -42,9 +42,11 @@ public class TransacaoService
         return await _transacaoRepository.AdicionarAsync(transacao);
     }
 
+    /// <summary>
+    /// lista todas as transações cadastradas.
+    /// </summary>
     public async Task<List<Transacao>> ListasAsync()
     {
         return await _transacaoRepository.ListarTodasAsync();
     }
-
 }
