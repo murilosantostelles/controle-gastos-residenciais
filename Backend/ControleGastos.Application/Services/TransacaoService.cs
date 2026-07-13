@@ -45,7 +45,7 @@ public class TransacaoService
     /// <summary>
     /// lista todas as transações cadastradas.
     /// </summary>
-    public async Task<List<Transacao>> ListasAsync()
+    public async Task<List<Transacao>> ListarAsync()
     {
         return await _transacaoRepository.ListarTodasAsync();
     }
