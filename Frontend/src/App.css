@@ -1,0 +1,29 @@
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-titulo {
+  margin-bottom: 1.5rem;
+}
+
+.app-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.botao-aba {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: var(--branco);
+  color: var(--azul-marinho);
+}
+
+.botao-aba.ativo {
+  background-color: var(--azul-marinho);
+  color: var(--branco);
+}
