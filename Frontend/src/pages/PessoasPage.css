@@ -1,0 +1,54 @@
+.pessoas-page {
+  background-color: var(--branco);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.pessoas-form {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.pessoas-form input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #d1d1d6;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.pessoas-form button {
+  padding: 0.6rem 1.2rem;
+  background-color: var(--azul-marinho);
+  color: var(--branco);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.pessoas-erro {
+  color: #d70015;
+  margin-bottom: 1rem;
+}
+
+.pessoas-lista {
+  list-style: none;
+}
+
+.pessoas-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e5e5ea;
+}
+
+.pessoas-item button {
+  background-color: transparent;
+  border: 1px solid #d70015;
+  color: #d70015;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
