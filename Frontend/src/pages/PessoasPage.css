@@ -52,3 +52,19 @@
   border-radius: 6px;
   font-size: 0.85rem;
 }
+
+@media (max-width: 600px) {
+  .pessoas-page {
+    padding: 1rem;
+  }
+
+  .pessoas-form {
+    flex-direction: column;
+  }
+
+  .pessoas-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+}

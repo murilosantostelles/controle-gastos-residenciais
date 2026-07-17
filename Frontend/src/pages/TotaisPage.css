@@ -32,3 +32,14 @@
 .totais-erro {
   color: #d70015;
 }
+
+@media (max-width: 600px) {
+  .totais-page {
+    padding: 1rem;
+  }
+
+  .totais-detalhe {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}

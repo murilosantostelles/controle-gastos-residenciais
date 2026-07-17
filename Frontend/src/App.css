@@ -27,3 +27,18 @@
   background-color: var(--azul-marinho);
   color: var(--branco);
 }
+
+@media (max-width: 600px) {
+  .app-container {
+    padding: 1rem;
+  }
+
+  .app-nav {
+    flex-wrap: wrap;
+  }
+
+  .botao-aba {
+    flex: 1;
+    min-width: 90px;
+  }
+}

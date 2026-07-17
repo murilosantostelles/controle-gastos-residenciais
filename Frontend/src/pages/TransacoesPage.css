@@ -56,3 +56,24 @@
   color: #d70015;
   font-weight: 600;
 }
+
+@media (max-width: 600px) {
+  .transacoes-page {
+    padding: 1rem;
+  }
+
+  .transacoes-form {
+    flex-direction: column;
+  }
+
+  .transacoes-form input,
+  .transacoes-form select {
+    min-width: 100%;
+  }
+
+  .transacoes-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+}
