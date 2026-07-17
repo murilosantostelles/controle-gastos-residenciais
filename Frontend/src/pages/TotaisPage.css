@@ -1,0 +1,34 @@
+.totais-page {
+  background-color: var(--branco);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.totais-lista {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.totais-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e5ea;
+}
+
+.totais-detalhe {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.totais-geral {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--azul-marinho);
+}
+
+.totais-erro {
+  color: #d70015;
+}
