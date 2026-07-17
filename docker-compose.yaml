@@ -13,4 +13,4 @@ services:
       - pgdata:/var/lib/postgresql/data
 
 volumes:
-  pgdata:
+  pgdata: # garante que os dados do postgres persistam entre reinicializações do container
